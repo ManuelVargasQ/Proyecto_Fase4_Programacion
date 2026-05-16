@@ -1,0 +1,19 @@
+=== INICIO DE SIMULACIÓN DE OPERACIONES EN SOFTWARE FJ ===
+[ÉXITO] Operación 1: Cliente 1 registrado correctamente.
+[ÉXITO] Operación 2: Cliente 2 registrado correctamente.
+[INTENTO] Operación 3: Registrando cliente con cédula inválida '12345A'...
+[FALLO CONTROLADO] Operación 3: La cédula debe contener únicamente números.
+[INTENTO] Operación 4: Registrando cliente con correo sin @...
+[FALLO CONTROLADO] Operación 4: El formato del correo electrónico es inválido.
+[ÉXITO] Operación 5: Reserva RES-001 creada satisfactoriamente.
+[ÉXITO] Operación 6: Reserva RES-002 creada satisfactoriamente.
+[ÉXITO] Operación 7: Reserva RES-003 creada satisfactoriamente.
+[INTENTO] Operación 8: Creando reserva con duración de -2 horas...
+[FALLO CONTROLADO] Operación 8: La duración o cantidad debe ser un número mayor a cero.
+[ÉXITO] Operación 9: Reserva RES-001 cancelada con éxito.
+[INTENTO] Operación 10: Intentando cancelar RES-001 por segunda vez...
+[FALLO CONTROLADO] Operación 10: La reserva RES-001 ya se encuentra cancelada.
+=== FIN DE LA SIMULACIÓN AUTOMÁTICA ===
+
+[USER ERROR] Entrada de datos no numérica en reserva manual.
+[USER] Reserva manual creada: ID RES-MANUEL
